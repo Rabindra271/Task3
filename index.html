@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian History Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>🏛️ Indian History Explorer</h1>
+            <p>Discover the Rich Heritage and Landmarks of India</p>
+        </div>
+    </header>
+
+    <!-- Feature Cards Section -->
+    <section class="container">
+        <div class="card">
+            <div class="card-icon">🏛️</div>
+            <h2>Ancient India</h2>
+            <p>
+                Explore the mighty civilizations from the Indus Valley to the Maurya Empire.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">🎯</div>
+            <h2>Historical Quiz</h2>
+            <p>
+                Test your knowledge about Indian history, empires, and cultural heritage.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">📍</div>
+            <h2>Famous Sites</h2>
+            <p>
+                Discover iconic landmarks like the Taj Mahal, Ajanta Caves, and more.
+            </p>
+        </div>
+    </section>
+
+    <section class="quiz-section">
+
+        <h2>Test Your Knowledge: Indian History Quiz</h2>
+        
+        <div class="quiz-header">
+            <div class="progress-tracker">
+                <span id="questionCounter">Question 1 of 5</span>
+            </div>
+            <div class="score-tracker">
+                <span id="currentScore">Score: 0/5</span>
+            </div>
+        </div>
+
+        <div id="quiz">
+
+            <h3 id="question"></h3>
+
+            <div class="options">
+                <button class="option-btn"></button>
+                <button class="option-btn"></button>
+                <button class="option-btn"></button>
+                <button class="option-btn"></button>
+            </div>
+
+            <button id="nextBtn">Next Question</button>
+
+            <div id="scoreDisplay" style="display:none;">
+                <h3 id="finalScoreTitle"></h3>
+                <h2 id="finalScore"></h2>
+                <p id="scoreMessage"></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="facts-section">
+
+        <h2>Historical Facts & Landmarks</h2>
+
+        <button id="factBtn">
+            Get Random Historical Fact
+        </button>
+
+        <div id="factContainer">
+            Click the button to discover interesting facts about Indian history.
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Indian History Explorer. Celebrating the Legacy of India.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
